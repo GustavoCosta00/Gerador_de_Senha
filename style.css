@@ -4,7 +4,7 @@ body{
 
 main{
     text-align: center;
-    margin-top: 11rem;
+    margin-top: 6rem;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,7 +15,7 @@ p{
     height: 150px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5rem;
+    margin-top: 3rem;
     border-radius: 10px;
     line-height: 150px;
     font-size: 25px;
@@ -26,5 +26,40 @@ P:hover{
     cursor: pointer;
     background-color: rgb(46, 44, 44);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+}
+
+#valuePassword{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#calculate{
+    padding: 20px;
+    margin-left: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+#copy1{
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#copy1:hover{
+    background-color: rgb(63, 59, 59);
+    color: white;
+}
+
+#calculate:hover{
+    background-color: rgb(63, 59, 59);
+    color: white;
 }
